@@ -15,8 +15,8 @@ int main()
     // cout << factorialLoop(4);
     // cout << powerRecursion1(2, 3) << endl;
     // cout << powerRecursion2(2, 3) << endl;
-    cout << powerLoop1(2, 3) << endl;
-    cout << powerLoop2(2, 3);
-
+    // cout << powerLoop1(2, 3) << endl;
+    // cout << powerLoop2(2, 3);
+    
     return 0;
 }

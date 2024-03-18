@@ -36,7 +36,7 @@ int powerRecursion2(int base, int exponent)
 }
 
 // same with loop
-// o(log n)
+// o(log n) space-o(1)
 int powerLoop2(int base, int exponent)
 {
     int result = 1;

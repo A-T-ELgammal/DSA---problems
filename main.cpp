@@ -19,7 +19,9 @@ int main()
     // cout << powerRecursion2(2, 3) << endl;
     // cout << powerLoop1(2, 3) << endl;
     // cout << powerLoop2(2, 3);
-    cout << taylorSeriesRecursive(1, 10);
-    
+    cout << taylorSeriesRecursive1(1, 10) << endl;
+    cout << taylorSeriesRecursive2(1, 10) << endl;
+    cout << taylorSeriesLoop(1, 10);
+
     return 0;
 }

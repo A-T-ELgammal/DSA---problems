@@ -23,8 +23,10 @@ double taylorSeriesLoop(int x, int n)
     double s = 1;
     if (n == 0)
         return 1;
-    for (int i = 0; n > 0; n--)
+    while (n > 0)
     {
         s = 1 + x * s / n;
+        n--;
     }
+    return s;
 }

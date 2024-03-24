@@ -2,6 +2,8 @@
 #include "recursion/sum_of_first_N_numbers.h"
 #include "recursion/facrotial.h"
 #include "recursion/exponent.h"
+#include "recursion/taylor_series.h"
+
 using namespace std;
 
 int main()
@@ -17,6 +19,7 @@ int main()
     // cout << powerRecursion2(2, 3) << endl;
     // cout << powerLoop1(2, 3) << endl;
     // cout << powerLoop2(2, 3);
+    cout << taylorSeriesRecursive(1, 10);
     
     return 0;
 }

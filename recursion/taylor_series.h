@@ -30,3 +30,17 @@ double taylorSeriesLoop(int x, int n)
     }
     return s;
 }
+double taylorSeriesLoop2(int x, int n)
+{
+    double s;
+    int denumenator, numenator;
+    if (n == 0)
+        return 1;
+    for (int i = 0; i <= n; i++)
+    {
+        numenator *= x;
+        denumenator *= i; // factorial
+        s += numenator / denumenator;
+    }
+    return s;
+}

@@ -3,6 +3,7 @@
 #include "recursion/facrotial.h"
 #include "recursion/exponent.h"
 #include "recursion/taylor_series.h"
+#include "recursion/Fibonacci.h"
 
 using namespace std;
 
@@ -19,9 +20,10 @@ int main()
     // cout << powerRecursion2(2, 3) << endl;
     // cout << powerLoop1(2, 3) << endl;
     // cout << powerLoop2(2, 3);
-    cout << taylorSeriesRecursive1(1, 10) << endl;
-    cout << taylorSeriesRecursive2(1, 10) << endl;
-    cout << taylorSeriesLoop(1, 10);
-
+    // cout << taylorSeriesRecursive1(1, 1'0) << endl;
+    // cout << taylorSeriesRecursive2(1, 10) << endl;
+    // cout << taylorSeriesLoop(1, 10) << endl;
+    // cout << taylorSeriesLoop2(1, 10);'
+    cout << fibonacci(3);
     return 0;
 }
